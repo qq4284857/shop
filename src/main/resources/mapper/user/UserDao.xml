@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shop.framework.user.dao.UserDao">
+
+    <select id="Login" resultMap="selects">
+        select u.id,u.username,u.password,u.status from users as u where 1=1
+        <if test="username!=null and username!=''">
+            and u.username=#{username}
+        </if>
+    </select>
+    <insert id="InsertName">
+		insert into users(username,password,sex,age,email,phone,time,status)values(#{username},#{password},#{sex},#{age},#{email},#{phone},#{time},0)
+	</insert>
+
+    <resultMap type="com.shop.framework.user.entity.User" id="selects">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <result property="email" column="email"/>
+        <result property="phone" column="phone"/>
+        <result property="time" column="time"/>
+        <result property="status" column="status"/>
+    </resultMap>
+
+
+</mapper> 
+    

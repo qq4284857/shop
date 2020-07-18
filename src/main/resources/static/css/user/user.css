@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:600px){
+    html, body {
+        background-image: url('/shop/images/user/timg.jpg');
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+
+}
+@media screen  and (max-width: 600px){
+    html,body{
+        background-image: url('/shop/images/user/hd.jpg');
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+
+}
+
+
+#index_css {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.head {
+    width: 100%;
+    height: 20%;
+    border: 1px solid palegreen;
+}
+
+.username {
+
+    text-align: center;
+}
+
+.user_input{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.password {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#from_div {
+    background: #ffffff;
+    margin: 60px auto;
+    width: 300px;
+    height: 360px;
+
+}
+
+#from_qie {
+    background: #ffffff;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.but {
+    width: 150px;
+    border: none;
+    background: #fffff;
+    height: 35px;
+}
+.form-control{
+    margin-left: 80px;
+}
+.user_name{
+
+}
+
+.h4_css_1{
+    text-align: center;
+}
+#but1,#but2{
+    outline:0;
+}
+#but2 {
+    margin-left: -4px;
+}
+
+#from_div1 {
+    margin-top: 10px;
+}
+
+.from_dic1 {
+    margin-top: 10px;
+}
+
+#submit_btn {
+
+    width: 190px;
+    margin-top: 20px;
+}
+
+#from_sub {
+    text-align: center;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    float: left;
+    line-height: 1;
+
+}
+.checkbox_css{
+    margin: 30px 55px;
+    width: 100px;
+}
+.form-control{
+
+}
+.wangji{
+    line-height: 2.5;
+    color: #999;
+}
+#jizhumima{
+    line-height: 2;
+    margin-left: 10px;
+}
+.checkbox_css_1{
+    width: 100px;
+    margin: -66px 20px 0px 170px;
+
+}
+.login_css_1{
+
+}
+.reg_css_1{
+    display: none;
+}
+.username_1,.password_1,.age_1,.email_1,.phone_1{
+    text-align: center;
+}
+.sex_1{
+    margin-left: 27px;
+}
+#mes{
+    text-align: center;
+    margin-top: 10px;
+}
